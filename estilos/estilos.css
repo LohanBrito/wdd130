@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  backgroud-color: #333;
+  background-color: #333;
   padding: 10px;
 }
 
@@ -24,7 +24,7 @@ nav a {
 
 
 header nav a {
-  color: black;
+  color: white;
   margin-right: 15px;
   text-decoration: none;
 }
