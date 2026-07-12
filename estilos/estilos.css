@@ -11,13 +11,35 @@ header {
 header nav a {
   color: black;
   margin-right: 15px;
-  text-decoration: nome;
+  text-decoration: none;
 }
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
 
 aside img {
   width: 150px;
   height: auto;
   ...
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+  
 
   
