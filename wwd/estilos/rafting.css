@@ -67,3 +67,8 @@ footer a {
   font-size: 2em;
 }
 
+footer {
+  background-color: var(--cor-destaque2);
+}
+
+
