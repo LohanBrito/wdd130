@@ -18,7 +18,14 @@ body {
   background-color: #f5f5f5; /* opcional */
 }
 
-header, main, footer {
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+  padding: 12px;
+}
+
+main, footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -29,13 +36,23 @@ h1, h2 {
   text-align: center;
 }
 
-nav, p, section, article {
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+nav a {
+  color: var(--cor-primaria);
+}
+
+p, section, article {
   margin: 16px;
   padding: 8px;
 }
 
 footer a {
-  text-decoration: none;
+  margin: 0 8px;
 }
 
 .hero {
@@ -81,6 +98,8 @@ footer a {
 
 footer {
   background-color: var(--cor-destaque2);
+  text-align: center;
+  padding: 16px;
 }
 
 
