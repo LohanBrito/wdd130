@@ -25,6 +25,16 @@ header {
   padding: 12px;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+}
+
 main, footer {
   width: 840px;
   margin: 0 auto;
