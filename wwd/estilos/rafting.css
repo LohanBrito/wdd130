@@ -96,9 +96,9 @@ p, section, article {
 }
 
 .hero article img {
-  float: right;
-  width: 125px;
-  margin-left: 12px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 footer {
