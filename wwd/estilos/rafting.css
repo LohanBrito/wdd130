@@ -79,7 +79,7 @@ p, section, article {
   font-size: 2em;
 }
 
-.hero .conteu{
+.hero .conteudo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -98,6 +98,40 @@ p, section, article {
   height: auto;
   border-radius: 8px;
 }
+
+.grid-historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-historia img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.grid-aventura {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.grid-aventura img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.grid-aventura figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--cor-primaria);
+  margin-top: 8px;
+}
+
+
 
 footer {
   display: flex;
