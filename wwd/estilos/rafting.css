@@ -148,8 +148,6 @@ p, section, article {
   margin-top: 8px;
 }
 
-
-
 footer {
   display: flex;
   justify-content: center;
@@ -166,20 +164,23 @@ footer p{
   font-size: 0.9em;
 }
 
-footer a {
-  margin: 0 8px;
+footer nav.socialmedia {
+  display: flex;
+  gap: 16px;
+}
+
+footer nav.socialmedia a {
   display: inline-block;
 }
 
-footer img {
+footer nav.socialmedia img {
   width: 32px;
   height: auto;
-  vertical-align: middle;
   transition: transform 0.3s ease;
 }
 
-footer img:hover{
-  transform: scale(1.2)
+footer nav.socialmedia img:hover {
+  transform: scale(1.2);
 }
 
 
