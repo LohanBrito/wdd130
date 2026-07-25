@@ -51,10 +51,6 @@ p, section, article {
   padding: 8px;
 }
 
-footer a {
-  margin: 0 8px;
-}
-
 .hero {
   position: relative;
 }
@@ -101,5 +97,22 @@ footer {
   text-align: center;
   padding: 16px;
 }
+
+footer a {
+  margin: 0 8px;
+  display: inline-block;
+}
+
+footer img {
+  width: 32px;
+  height: auto;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+footer img:hover{
+  transform: scale(1.2)
+}
+
 
 
