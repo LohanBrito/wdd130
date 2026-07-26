@@ -1,6 +1,6 @@
 :root {
   --cor-primaria: #004080;      /* azul escuro */
-  --cor-destaque1: #b34700;     /* laranja */
+  --cor-destaque1: #b34700;     /* laranja mais escuro para contraste AA */
   --cor-destaque2: #ffffff;     /* branco */
   --fonte-titulo: 'Arial Black', sans-serif;
   --fonte-body: 'Verdana', sans-serif;
@@ -76,23 +76,16 @@ p, section, article {
   padding: 8px;
 }
 
+/* HERO*/
 .hero {
+  position: relative; /* container relativo */
   width: 100%;
-  margin: 0 auto; 
-  position: relative;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.hero img.hero-imagem {
-  width: 60%;
-  margin-left: 30%;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
-
 .hero article {
-  position: absolute;
+  position: absolute; /* sobreposição */
   top: 0;
   left: 0;
   width: 100%;
@@ -104,32 +97,31 @@ p, section, article {
   text-align: center;
   color: #000;
   padding: 20px;
-  border-radius: 8px;
 }
 
 .hero h1 {
-  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: var(--fonte-titulo);
   font-size: 2em;
-  margin: 20px
+  margin: 0;
+  color: var(--cor-primaria);
 }
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+.hero img.hero-imagem {
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
-.hero p {
-  flex: 1;
-  font-family: var(--fonte-body);
-  text-align: left;
-}
-
+/* HISTÓRIA */
 .grid-historia {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* mais flexível */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   align-items: center;
   text-align: center;
@@ -140,6 +132,7 @@ p, section, article {
   border-radius: 8px;
 }
 
+/* AVENTURA */
 .grid-aventura {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -159,6 +152,7 @@ p, section, article {
   margin-top: 8px;
 }
 
+/* FOOTER */
 footer {
   display: flex;
   flex-direction: column;
@@ -193,3 +187,4 @@ footer nav.socialmedia img {
 
 footer nav.socialmedia img:hover {
   transform: scale(1.2);
+}
