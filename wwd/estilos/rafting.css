@@ -81,7 +81,7 @@ p, section, article {
   position: relative; /* container relativo */
   width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 50px;
 }
 
 .hero article {
