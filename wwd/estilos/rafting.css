@@ -83,7 +83,7 @@ p, section, article {
   padding: 30%;
 }
 
-.hero img.hero-imagem {
+.hero .conteudo img.hero-imagem {
   width: 60%;
   margin-left: 30%;
   height: auto;
