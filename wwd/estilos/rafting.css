@@ -94,7 +94,7 @@ p, section, article {
   text-align: center;
   opacity: 0.7;
   color: var(--cor-primaria);
-  padding: 20px
+  padding: 20px;
   border-radius: 8px;
   font-family: var(--fonte-titulo);
   font-size: 2em;
