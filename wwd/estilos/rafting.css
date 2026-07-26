@@ -80,10 +80,10 @@ p, section, article {
   width: 100%;
   margin: 0 auto; 
   position: relative;
-  padding: 20%;
+  padding: 20px;
 }
 
-.hero .conteudo img.hero-imagem {
+.hero img.hero-imagem {
   width: 60%;
   margin-left: 30%;
   height: auto;
@@ -114,14 +114,14 @@ p, section, article {
   margin: 20px
 }
 
-.hero .conteudo {
+.hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
-.hero .conteudo p {
+.hero p {
   flex: 1;
   font-family: var(--fonte-body);
   text-align: left;
