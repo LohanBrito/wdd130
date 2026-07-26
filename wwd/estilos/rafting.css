@@ -85,7 +85,7 @@ p, section, article {
 
 .hero .conteudo img.hero-imagem {
   width: 60%;
-  margin-left: 30%;
+  margin-left: 30;5;
   height: auto;
   display: block;
   border-radius: 8px;
@@ -116,16 +116,15 @@ p, section, article {
 }
 
 .hero .conteudo {
-   display: flex;
-  justify-content: flex-start; /* texto à esquerda */
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
-.hero p {
+.hero .conteudo p {
   flex: 1;
   font-family: var(--fonte-body);
-  font-size: 1em;
   text-align: left;
 }
 
