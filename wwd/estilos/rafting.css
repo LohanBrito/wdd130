@@ -106,6 +106,7 @@ p, section, article {
 }
 
 .hero h1 {
+  position: absolute;
   font-family: var(--fonte-titulo);
   font-size: 2em;
   margin-bottom: 12px;
