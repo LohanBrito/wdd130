@@ -110,7 +110,7 @@ p, section, article {
 .hero .conteudo p {
   flex: 1;
   font-family: var(--fonte-body);
-  color: var(--cor-destaque1);
+  color: var(--cor-primaria);
 }
 
 .hero .conteudo img {
