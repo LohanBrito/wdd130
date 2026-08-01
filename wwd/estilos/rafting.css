@@ -187,16 +187,16 @@ footer p {
   font-size: 0.9em;
 }
 
-footer nav.socialmedia {
+footer nav.redes-sociais {
   display: flex;
   gap: 16px;
 }
 
-footer nav.socialmedia a {
+footer nav.redes-sociais a {
   display: inline-block;
 }
 
-footer nav.socialmedia img {
+footer nav.redes-sociais img {
   width: 32px;
   height: auto;
   transition: transform 0.3s ease;
