@@ -41,12 +41,18 @@
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="proposito">Propósito da Mensagem:</label>
-        <select id="proposito" name="proposito">
-          <option value="duvida">Dúvida Geral</option>
-          <option value="reserva">Pergunta sobre Reserva</option>
-          <option value="sugestao">Sugestão</option>
-        </select>
+        <fieldset>
+          <legend>Propósito da Mensagem:</legend>
+
+          <input type="radio" id="duvida" name="proposito" value="duvida" required>
+          <label for="duvida">Dúvida Geral</label><br>
+
+          <input type="radio" id="reserva" name="proposito" value="reserva">
+          <label for="reserva">Pergunta sobre Reserva</label><br>
+
+          <input type="radio" id="sugestao" name="proposito" value="sugestao">
+          <label for="sugestao">Sugestão</label>
+        </fieldset>
 
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
