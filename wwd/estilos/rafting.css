@@ -309,24 +309,24 @@ main {
 /* Container dos perfis */
 .perfis {
   display: flex;
-  justify-content: center; /* centraliza os perfis */
-  gap: 40px; /* espaçamento igual entre as imagens */
-  flex-wrap: wrap; /* permite quebrar linha em telas menores */
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 /* Cada perfil individual */
 .perfil-funcionario {
-  width: 220px; /* tamanho padrão */
+  width: 80px;
   text-align: center;
 }
 
 /* Imagem do funcionário */
 .perfil-funcionario img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%; /* deixa a imagem redonda */
-  object-fit: cover; /* mantém proporção sem distorcer */
-  border: 3px solid #ccc; /* borda leve para destaque */
+  width: 80px;
+  height: auto;
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 3px solid #ccc; 
 }
 
 /* Nome e cargo abaixo da imagem */
@@ -334,5 +334,12 @@ main {
   margin-top: 10px;
   font-size: 1em;
   color: #333;
+}
+
+@media (max-width: 768px) {
+  .perfis {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
