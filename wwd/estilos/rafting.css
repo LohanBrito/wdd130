@@ -310,19 +310,19 @@ main {
 .perfis {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
 /* Cada perfil individual */
 .perfil-funcionario {
-  width: 20px;
+  width: 60px;
   text-align: center;
 }
 
 /* Imagem do funcionário */
 .perfil-funcionario img {
-  width: 20px;
+  width: 60px;
   height: auto;
   border-radius: 50%; 
   object-fit: cover; 
