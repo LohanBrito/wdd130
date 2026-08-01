@@ -295,19 +295,44 @@ main {
   background-color: #005fa3;
 }
 
-.equipe .perfis {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+/* ====== Seção da equipe ====== */
+.equipe {
+  text-align: center;
+  margin-top: 40px;
 }
 
+.equipe h2 {
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+
+/* Container dos perfis */
+.perfis {
+  display: flex;
+  justify-content: center; /* centraliza os perfis */
+  gap: 40px; /* espaçamento igual entre as imagens */
+  flex-wrap: wrap; /* permite quebrar linha em telas menores */
+}
+
+/* Cada perfil individual */
 .perfil-funcionario {
+  width: 220px; /* tamanho padrão */
   text-align: center;
 }
 
+/* Imagem do funcionário */
 .perfil-funcionario img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; 
-  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%; /* deixa a imagem redonda */
+  object-fit: cover; /* mantém proporção sem distorcer */
+  border: 3px solid #ccc; /* borda leve para destaque */
 }
+
+/* Nome e cargo abaixo da imagem */
+.perfil-funcionario p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #333;
+}
+
