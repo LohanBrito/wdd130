@@ -1,3 +1,4 @@
+/* CSS da Página sobre.html*/
 :root {
   --cor-primaria: #004080;      /* azul escuro */
   --cor-destaque1: #b34700;     /* laranja mais escuro para contraste AA */
@@ -203,4 +204,110 @@ footer nav.socialmedia img {
 
 footer nav.socialmedia img:hover {
   transform: scale(1.2);
+}
+
+/* CSS da Página contato.html*/
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* ====== Informações de contato ====== */
+.contato-info {
+  margin-bottom: 30px;
+}
+
+.contato-info h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.contato-info p {
+  margin: 5px 0;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  margin-top: 15px;
+}
+
+/* ====== Formulário ====== */
+.formulario-contato {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.formulario-contato h2 {
+  margin-bottom: 15px;
+}
+
+.formulario-contato label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario-contato fieldset {
+  border: none;
+  margin-top: 15px;
+}
+
+.formulario-contato legend {
+  font-weight: bold;
+}
+
+.formulario-contato input[type="radio"] {
+  margin-right: 5px;
+}
+
+.formulario-contato .newsletter {
+  margin-top: 15px;
+}
+
+.formulario-contato button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formulario-contato button:hover {
+  background-color: #005fa3;
+}
+
+.equipe .perfis {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.perfil-funcionario {
+  text-align: center;
+}
+
+.perfil-funcionario img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover;
 }
