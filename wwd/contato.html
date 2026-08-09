@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/rafting.css">
+    <meta name="description" content="Uma página para poder falar um pouquinho mais sobre nós e para que você nos conheça e se encante">
+    <meta name="author" content="Lohan Brito">
+    <title>Fale Conosco - Rafting Rush</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="imagens/raf.png" alt="Logotipo Rafting Rush">
+      </div>
+      <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="passeios.html">Passeios</a>
+        <a href="contato.html">Fale Conosco</a> 
+      </nav>
+    </header>
+    <main>
+     <section class="contato-info">
+       <h1>Fale Conosco Rafting Rush</h1>
+       <p><strong>Endereço:</strong> Rua das Aventuras, 123 - Juiz de Fora - MG</p>
+       <p><strong>Telefone:</strong> 
+         <a href="tel:+5532999999999">(32) 99999-9999</a>
+       </p>
+       <p><strong>Email:</strong> 
+           <a href="mailto:contato@raftingrush.com">contato@raftingrush.com</a>
+       </p>
+
+       <div class="mapa">
+         <iframe src="https://www.google.com/maps/place/Parque+Halfeld/@-21.7611588,-43.352889,17z/data=!3m1!4b1!4m6!3m5!1s0x989c9fb8b7ae1d:0x488f0bb7436c2d13!8m2!3d-21.7611588!4d-43.3503141!16s%2Fg%2F121zvg64?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D"></iframe>
+       </div>
+     </section>
+     <section class="formulario-contato">
+      <h2>Fale Conosco</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+          <legend>Propósito da Mensagem:</legend>
+
+          <input type="radio" id="duvida" name="proposito" value="duvida" required>
+          <label for="duvida">Dúvida Geral</label><br>
+
+          <input type="radio" id="reserva" name="proposito" value="reserva">
+          <label for="reserva">Pergunta sobre Reserva</label><br>
+
+          <input type="radio" id="sugestao" name="proposito" value="sugestao">
+          <label for="sugestao">Sugestão</label>
+        </fieldset>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <div class="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Por favor, me inscreva na newsletter mensal</label>
+        </div>
+
+        <button type="submit">Entrar em Contato!</button>
+      </form>
+     </section>
+
+     <section class="equipe">
+      <h2>Estamos Aqui para Servi-lo</h2>
+      <div class="perfis">
+        <div class="perfil-funcionario">
+          <img src="imagens/func1.jpg" alt="Funcionário 1">
+          <p>Funcionário 1</p>
+        </div>
+        <div class="perfil-funcionario">
+          <img src="imagens/func2.jpg" alt="Funcionário 2">
+          <p>Funcionário 2</p>
+        </div>
+        <div class="perfil-funcionario">
+          <img src="imagens/func3.jpg" alt="Funcionário 3">
+          <p>Funcionário 3</p>
+        </div>
+      </div>
+     </section>   
+    </main>
+    <footer>
+      <p>&copy; 2026 Rafting Rush - Lohan Brito</p>
+      <nav class="redes-sociais">
+        <a href="https://facebook.com"><img src="imagens/facebook.png" alt="Facebook"></a>
+        <a href="https://instagram.com"><img src="imagens/insta.png" alt="Instagram"></a>
+        <a href="https://twitter.com"><img src="imagens/twitter.png" alt="Twitter"></a>
+      </nav>  
+    </footer>
+  </body>
+</html>
