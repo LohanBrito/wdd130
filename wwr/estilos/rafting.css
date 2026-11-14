@@ -82,7 +82,7 @@ h1 {
 .hero article {
     position: absolute;
     top: 70px;
-    bottom: 20px;
+    bottom: -25%;
     left: 20px;
     right: 20px;
     background-color: var(--cor-destaque2);
