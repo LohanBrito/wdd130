@@ -52,7 +52,8 @@ article {
     position: relative;
     width: 100%;
     max-width: 1100px;
-    margin: 20px auto;
+    height: 250px;
+    margin: 20px auto 120px;
 }
 
 .hero img {
@@ -85,6 +86,8 @@ h1 {
     background-color: var(--cor-destaque2);
     color: var(--cor-primaria);
     padding: 16px;
+    bottom: auto;
+    /*Teste*/
 }
 
 section {
