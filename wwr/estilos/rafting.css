@@ -69,3 +69,8 @@ h1 {
     float: right;
     width: 125px;
 }
+
+article {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
