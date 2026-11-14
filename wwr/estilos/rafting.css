@@ -76,12 +76,15 @@ h1 {
 
 .hero article {
     position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
     background-color: var(--cor-destaque2);
     color: var(--cor-primaria);
+    padding: 16px;
 }
 
 section {
-    position: absolute;
     background-color: var(--cor-secundaria);
-    color: #fff;
+    color: var(--cor-primaria);
 }
