@@ -79,3 +79,9 @@ h1 {
     background-color: var(--cor-destaque2);
     color: var(--cor-primaria);
 }
+
+section {
+    position: absolute;
+    background-color: var(--cor-secundaria);
+    color: #fff;
+}
