@@ -206,3 +206,57 @@ section.historia h2 {
     border-radius: 0;
     display: block;
 }
+
+/* AVENTURA */
+section.aventura {
+    background-color: var(--cor-secundaria);
+    border: 1px solid #999999;
+    padding: 20px 24px;
+    margin: 20px auto;
+}
+
+section.aventura h2 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.grid-aventura {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 colunas iguais na horizontal */
+    gap: 16px;
+    margin: 0;
+    align-items: start;
+}
+
+.grid-aventura figure {
+    margin: 0;
+    text-align: center;
+}
+
+.grid-aventura img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+}
+
+.grid-aventura figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--cor-primaria);
+    margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+    .grid-aventura {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .grid-aventura {
+        grid-template-columns: 1fr;
+    }
+}
