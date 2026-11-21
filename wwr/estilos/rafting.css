@@ -267,12 +267,13 @@ footer {
     gap: 16px;
     padding: 16px 24px;
     background-color: var(--cor-secundaria);
-    border: 1px solid #555555;
+    border: 1px var(--cor-primaria);
 }
 
 footer p {
     margin: 0;
     padding: 0;
+    color: var(--cor-primaria);
 }
 
 footer nav.redes-sociais {
