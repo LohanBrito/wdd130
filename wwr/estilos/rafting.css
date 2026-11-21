@@ -67,8 +67,7 @@ body {
 }
 
 head,
-main,
-footer {
+main {
     width: 840px;
     margin: 0 auto;
 }
@@ -187,7 +186,6 @@ section.historia h2 {
 .grid-historia {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    /* coluna esquerda, imagem no centro, coluna direita */
     gap: 24px;
     align-items: center;
     text-align: left;
@@ -223,7 +221,6 @@ section.aventura h2 {
 .grid-aventura {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* 5 colunas iguais na horizontal */
     gap: 16px;
     margin: 0;
     align-items: start;
@@ -259,4 +256,45 @@ section.aventura h2 {
     .grid-aventura {
         grid-template-columns: 1fr;
     }
+}
+
+/* REDES SOCIAIS */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: #a3a3a3;
+    border: 1px solid #555555;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer nav.redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+footer nav.redes-sociais a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+footer nav.redes-sociais img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+footer nav.redes-sociais img:hover {
+    transform: scale(1.15);
 }
