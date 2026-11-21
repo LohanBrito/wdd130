@@ -13,6 +13,54 @@
     box-sizing: border-box;
 }
 
+/* Acrescido */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 14px 32px;
+    background-color: #a3a3a3;
+    border: 1px solid #555;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+}
+
+.logo img {
+    width: 110px;
+    height: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 32px;
+    gap: 0;
+}
+
+nav a {
+    background-color: #ffffff;
+    color: #222222;
+    text-decoration: none;
+    padding: 0.95rem;
+    padding: 10px 18px;
+    border: 1px solid #444444;
+    border-radius: 0;
+    margin-left: -1px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: var(--fonte-body);
     color: var(--cor-destaque1);
@@ -32,7 +80,7 @@ h2 {
     text-align: center;
 }
 
-nav,
+/* Retiarado o nav daqui*/
 p,
 section,
 article {
@@ -98,12 +146,4 @@ section {
     color: var(--cor-primaria);
     margin: 20px 0;
     padding: 30px 0;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
