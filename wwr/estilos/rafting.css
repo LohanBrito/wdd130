@@ -299,3 +299,10 @@ footer nav.redes-sociais img {
 footer nav.redes-sociais img:hover {
     transform: scale(1.15);
 }
+
+/* Página Contato/Fale Conosco */
+
+.contato {
+    text-align: center;
+    color: var(--cor-primaria);
+}
